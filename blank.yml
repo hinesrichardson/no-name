@@ -1,5 +1,5 @@
  This is a basic workflow to help you get started with Actions
-
+echo test/ and deploy@ project: 
 name: CI
 README.mdon:
   pull_request:
@@ -16,6 +16,7 @@ Spawn/dirt block distanc 50 from @player
 spawn = @ 20 block radius:
     block @dirt=push player: 
       - name: Run a multi-line script
-        run: on /@cammand / side arrow pushed 
+        run: on /@cammand side left arrow pushed
           echo Add other actions to build,
           echo test, and deploy your project.
+          
