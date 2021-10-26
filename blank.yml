@@ -1,0 +1,31 @@
+ This is a basic workflow to help you get started with Actions
+
+name: CI
+
+
+on:/playon github.org
+  
+  pull_request:
+    branches: [ main ]
+workflow_dispatch:
+
+
+jobs:
+ 
+  build:
+
+    
+    steps: = 2/when@button pushed @up arrow 
+      
+      - uses: actions/checkout@v2
+
+      
+      - name: Run a one-line script
+        run: echo Hello, world! run /@left
+
+    
+      - name: Run a multi-line script
+        run: on /@cammand / side arrow pushed 
+          echo Add other actions to build,
+          echo test, and deploy your project.
+0
