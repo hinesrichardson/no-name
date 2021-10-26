@@ -1,31 +1,21 @@
  This is a basic workflow to help you get started with Actions
 
 name: CI
-
-
-on:/playon github.org
-  
+README.mdon:
   pull_request:
     branches: [ main ]
 workflow_dispatch:
-
-
-jobs:
- 
+Spawn/dirt block distanc 50 from @player 
+/@dirt block = model1 
   build:
-
-    
+    character=@modle2/=player:
     steps: = 2/when@button pushed @up arrow 
-      
+      stone block = spawn 6 block awway: 
       - uses: actions/checkout@v2
-
-      
-      - name: Run a one-line script
-        run: echo Hello, world! run /@left
-
-    
+    stone block=@push player   
+spawn = @ 20 block radius:
+    block @dirt=push player: 
       - name: Run a multi-line script
         run: on /@cammand / side arrow pushed 
           echo Add other actions to build,
           echo test, and deploy your project.
-0
