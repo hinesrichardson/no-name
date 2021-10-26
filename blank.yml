@@ -8,18 +8,17 @@ workflow_dispatch:
 Spawn/dirt block distanc 50 from @player 
 /@dirt block = model1 
   build:
-    character=@modle2/=player:
-    steps: = 2/when@button pushed @up arrow 
-      stone block = spawn 6 block awway: 
-      - uses: actions/checkout@v2
-    stone block=@push player   
+character=@modle2/=player:
+steps: = 2/when@button pushed @up arrow 
+stone block = spawn 6 block awway: 
+- uses: actions/checkout@v2
+stone block=@push player   
 spawn = @ 20 block radius:
-    block @dirt=push player: 
-      - name: Run a multi-line script
-        run/ left on /@ control@left side arrow pushed:
-          e
-          echo+@project1when pushed:
-          Move = play@characteranimation/1
+block @dirt=push player: 
+- name: Run a multi-line script
+run/ left on /@ control@left side arrow pushed:
+echo+@project1when pushed:
+Move = play@characteranimation/1
 crouch= play@animation/2 :
 control/@arrow down=crouch:
 jump=@control up arrow:
