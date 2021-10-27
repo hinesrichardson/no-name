@@ -26,3 +26,5 @@ jump=play@ animation/3:
 move right@control/right arrow:
 @spike=modle 4:
 spike collission/@player=kill@player:
+script/move@dirt block2 left:
+@dirt block 2 = push@playerleft:
