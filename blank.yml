@@ -24,3 +24,5 @@ control/@arrow down=crouch:
 jump=@control up arrow:
 jump=play@ animation/3:
 move right@control/right arrow:
+@spike=modle 4:
+spike collission/@player=kill@player:
