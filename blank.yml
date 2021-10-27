@@ -32,4 +32,6 @@ piston=collision/@dirt block2 = push@dirt block left:
 player=modle2/minecraft steve=/@modle2:
 @zombie=@modle/5:
 zobie=@ai/go to@player/position:
-@backdrop=@modle/6:
+@backdrop=@modle
+zobie/collision/@player=/dead:
+/dead=@playerrespawn:
