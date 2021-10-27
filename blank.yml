@@ -5,7 +5,7 @@ README.mdon:
   pull_request:
     branches: [ main ]
 workflow_dispatch:
-Spawn/dirt block distanc 50 from @player 
+Spawn/dirt block radius/50 from @player 
 /@dirt block = model1 
   build:
 character=@modle2/=player:
@@ -28,3 +28,4 @@ move right@control/right arrow:
 spike collission/@player=kill@player:
 script/move@dirt block2 left:
 @dirt block 2 = push@playerleft:
+piston=collision/@dirt block2 = push@dirt block left:
