@@ -35,3 +35,6 @@ zobie=@ai/go to@player/position:
 @backdrop=@modle
 zobie/collision/@player=/dead:
 /dead=@playerrespawn:
+@spike collision/@player=/dead:
+walk/left=play@character/animation/1:
+walk/right=play@character/animation/2:
