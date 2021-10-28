@@ -81,6 +81,6 @@ music=/track2/dead@player:
 @d/whenpushed=walk/right:
 @a/whenpushed=walk/left:
 @s/whenpushed=/crouch:
-
-
-
+@pickaxe=break/stone/1blockradius/when/activated:
+@pickaxe=/activated/when/m/pushed:
+stone=push@spider:
