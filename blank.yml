@@ -75,6 +75,8 @@ bullet2/collision/spider=@/kill@spider:
 @creeper=modle/17:
 @creeper/explode/playernear:
 creeper/explode=?dead@player/20block radius:
+@misic=/tack/1:
+music=/track2/dead@player:
 
 
 
