@@ -84,4 +84,8 @@ music=/track2/dead@player:
 @pickaxe=break/stone/1blockradius/when/activated:
 @pickaxe=/activated/when/m/pushed:
 stone=push@spider:
-/break@stone=/stone/despawn
+/break@stone=/stone/despawn:
+@rpg/gun=w/triggered=/bullet3:
+bullet3=/collision/@explode:
+bullet3=goto/mouce/courcer:
+@rpg=modle/18:
