@@ -84,3 +84,4 @@ music=/track2/dead@player:
 @pickaxe=break/stone/1blockradius/when/activated:
 @pickaxe=/activated/when/m/pushed:
 stone=push@spider:
+/break@stone=/stone/despawn
