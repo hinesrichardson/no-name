@@ -63,6 +63,10 @@ bomb2/explode=/dead@player:
 bomb2=play@animatio/9:
 bomb=play@animation/10:
 /kill@zobie=/despawn:
+@grass=spaw/dirt:
+@grass=push@player:
+@grass=modle/15:
+@zobie/move=playecharacter/animation/5:
 
 
 
