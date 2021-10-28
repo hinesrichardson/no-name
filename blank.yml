@@ -51,7 +51,10 @@ gun=@model/9:
 bomb=@modle/10:
 bomb=/kill@player10/blockradius:
 bomb=kill/@zobie/10blockradius:
-
+sandblock=@modle/11:
+sandblock=/break/collision@pickaxe:
+@pickaxe=/break@sandblock:
+break=/despawn@sandblock:
 
 
 
