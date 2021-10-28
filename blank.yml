@@ -62,7 +62,7 @@ bomb2=@modle/14:
 bomb2/explode=/dead@player:
 bomb2=play@animatio/9:
 bomb=play@animation/10:
-
+/kill@zobie=/despawn:
 
 
 
