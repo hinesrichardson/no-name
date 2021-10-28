@@ -63,10 +63,18 @@ bomb2/explode=/dead@player:
 bomb2=play@animatio/9:
 bomb=play@animation/10:
 /kill@zobie=/despawn:
-@grass=spaw/dirt:
+@grass=spawn/dirt:
 @grass=push@player:
 @grass=modle/15:
 @zobie/move=playecharacter/animation/5:
+spider=@modle16:
+spider/collision/@player=/dead:
+spider/ai=/goto@player/position:
+bullet2/collision/spider=@/kill@spider:
+@/kill/spidr=/deaspawn:
+@creeper=modle/17:
+@creeper/explode/playernear:
+creeper/explode=?dead@player/20block radius:
 
 
 
