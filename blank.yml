@@ -3,22 +3,21 @@ echo test/ and deploy@ project:
 name: CI
 README.mdon:
   pull_request:
-    branches: [ main ]
 workflow_dispatch:
-Spawn/dirt block radius/50 from @player 
-/@dirt block = model1 
+Spawn/dirt block radius/50 from @player:
+/@dirt block = model1:
   build:
 player=@modle2/=player:
-steps: = 2/when@button pushed @up arrow 
+steps = 2/when@button pushed @up arrow: 
 stone block = spawn 6 block awway: 
-- uses: actions/checkout@v2
-stone block=@push player   
+- uses actions/checkout@v2:
+stone block=@push player:
 spawn = @ 20 block radius:
 block @dirt=push player: 
 - name: Run a multi-line script
 run/ left on /@ control@left side arrow pushed:
 echo+@project1when pushed:
-Move = play@characteranimation/1
+Move = play@characteranimation/1:
 crouch= play@animation/2 :
 control/@arrow down=crouch:
 jump=@control up arrow:
@@ -27,12 +26,12 @@ move right@control/right arrow:
 @spike=modle 4:
 spike collission/@player=kill@player:
 script/move@dirt block2 left:
-@dirt block 2 = push@playerleft:
+@dirt block 2=push@playerleft:
 piston=collision/@dirt block2 = push@dirt block left:
 player=modle2/minecraft steve=/@modle2:
 @zombie=@modle/5:
 zobie=@ai/go to@player/position:
-@backdrop=@modle
+@backdrop=@modle:
 zobie/collision/@player=/dead:
 /dead=@playerrespawn:
 @spike collision/@player=/dead:
@@ -55,8 +54,9 @@ sandblock=@modle/11:
 sandblock=/break/collision@pickaxe:
 @pickaxe=/break@sandblock:
 break=/despawn@sandblock:
-
-
+place/@sandblock=spawn@sandblock/at/courser:
+@sandblock=push@player:
+pickaxe=@modle/12:
 
 
 
