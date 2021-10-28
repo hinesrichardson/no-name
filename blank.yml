@@ -29,10 +29,10 @@ script/move@dirt block2 left:
 @dirt block 2=push@playerleft:
 piston=collision/@dirt block2 = push@dirt block left:
 player=modle2/minecraft steve=/@modle2:
-@zombie=@modle/5:
-zobie=@ai/go to@player/position:
-@backdrop=@modle:
-zobie/collision/@player=/dead:
+@zombie=@modle/5:  
+zobie=@ai/goto@player/position:  
+@backdrop=@modle:   
+zobie/collision/@player=/dead:  
 /dead=@playerrespawn:
 @spike collision/@player=/dead:
 walk/left=play@character/animation/1:
