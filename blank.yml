@@ -48,7 +48,7 @@ bullet2/collision@zobie=/despawn:
 trigger/spacebar=trigger/@gun:
 gun=@model/9:
 bomb=@modle/10:
-bomb=/kill@player10/blockradius:
+bomb=/dead@player10/blockradius:
 bomb=kill/@zobie/10blockradius:
 sandblock=@modle/11:
 sandblock=/break/collision@pickaxe:
@@ -57,7 +57,7 @@ break=/despawn@sandblock:
 place/@sandblock=spawn@sandblock/at/courser:
 @sandblock=push@player:
 pickaxe=@modle/12:
-
+/dead=play@animatio/13:
 
 
 
