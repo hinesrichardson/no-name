@@ -77,6 +77,10 @@ bullet2/collision/spider=@/kill@spider:
 creeper/explode=?dead@player/20block radius:
 @misic=/tack/1:
 music=/track2/dead@player:
+@w/whenpushed=/jump:
+@d/whenpushed=walk/right:
+@a/whenpushed=walk/left:
+@s/whenpushed=/crouch:
 
 
 
