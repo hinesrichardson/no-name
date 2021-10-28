@@ -48,6 +48,10 @@ gun=/spawn@bullet2when/triggered:
 bullet2/collision@zobie=/despawn:
 trigger/spacebar=trigger/@gun:
 gun=@model/9:
+bomb=@modle/10:
+bomb=/kill@player10/blockradius:
+bomb=kill/@zobie/10blockradius:
+
 
 
 
