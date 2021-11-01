@@ -88,4 +88,6 @@ stone=push@spider:
 @rpg/gun=w/triggered=/bullet3:
 bullet3=/collision/@explode:
 bullet3=goto/mouce/courcer:
-@rpg=modle/18:
+@rpg=@modle/18:
+@button/push/r=@respawn:
+@respawn=/dead@player:
