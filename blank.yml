@@ -91,3 +91,13 @@ bullet3=goto/mouce/courcer:
 @rpg=@modle/18:
 @button/push/r=@respawn:
 @respawn=/dead@player:
+@ball=model/19:
+ball/script=swing/left:
+ball/script=swight/right:
+ball=collision/@player=/Dead:
+ball=collision/zobie=/kill:
+@bullet2/collisio/@spider=/kill:
+zobie=spawn/20percent/air:
+@air=/spawn/half@stone:
+
+
