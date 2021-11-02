@@ -99,5 +99,7 @@ ball=collision/zobie=/kill:
 @bullet2/collisio/@spider=/kill:
 zobie=spawn/20percent/air:
 @air=/spawn/half@stone:
-
+@trump=/modle20:
+player/collision?@player=/dead:
+@trump/ai=go@player/position:
 
