@@ -102,9 +102,9 @@ zobie=spawn/20percent/air:
 @trump=/modle20:
 player/collision?@player=/dead:
 @trump/ai=go@player/position:
-@sniper=when/triggered=spawn@bullet3:
-@bullet3=script=move/left:
-@sniper=modle/20:
+@gunsniper=when/triggred=/swawn@bullet2:
+@gunsniper=@modle/21:
+trigger/spacebar=/trigger@gunsniper:
 controll/f=switch@weapons:
 @weapons=@sniper&@gun:
 when@gun/equiped=change/@charactermodle/2:
