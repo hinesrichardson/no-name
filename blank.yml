@@ -102,4 +102,7 @@ zobie=spawn/20percent/air:
 @trump=/modle20:
 player/collision?@player=/dead:
 @trump/ai=go@player/position:
+@sniper=/when/triggered=spawn@bullet3:
+@bullet3=/script=move/left:
+@sniper=@modle/20:
 
