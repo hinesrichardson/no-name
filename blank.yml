@@ -71,14 +71,12 @@ spider=@modle16:
 spider/collision/@player=/dead:
 spider/ai=/goto@player/position:
 bullet2/collision/spider=@/kill@spider:
-@/kill/spidr=/deaspawn:
+@/kill/spider=/deaspawn:
 @creeper=modle/17:
 @creeper/explode/playernear:
-creeper/explode=?dead@player/20block radius:
+creeper/explode=/dead@player/20block radius:
 @misic=/tack/1:
 music=/track2/dead@player:
-@pickaxe=break/stone/1blockradius/when/activated:
-@pickaxe=/activated/when/m/pushed:
 stone=push@spider:
 /break@stone=/stone/despawn:
 @rpg/gun=w/triggered=/bullet3:
@@ -98,7 +96,7 @@ zobie=spawn/20percent/air:
 @trump=/modle20:
 player/collision?@player=/dead:
 @trump/ai=go@player/position:
-@gunsniper=when/triggred=/swawn@bullet2:
+@gunsniper=when/triggred=/spawn@bullet2:
 @gunsniper=@modle/21:
 trigger/spacebar=/trigger@gunsniper:
 controll/f=switch@weapons:
