@@ -42,7 +42,7 @@ bullet=modle/8:
 bullet/collision=/dead:
 bullet/ai= when@player/detectedgo right:
 gun=/spawn@bullet2when/triggered:
-@bullet2/script=go/right:
+@bullet2=/script=go@right:
 bullet2/collision@zobie=/despawn:
 trigger/spacebar=trigger/@gun:
 gun=@model/9:
