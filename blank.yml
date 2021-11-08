@@ -105,4 +105,7 @@ player/collision?@player=/dead:
 @sniper=when/triggered=spawn@bullet3:
 @bullet3=script=move/left:
 @sniper=modle/20:
-
+controll/f=switch@weapons:
+@weapons=@sniper&@gun:
+when@gun/equiped=change/@charactermodle/2:
+when/@sniper=equiped/change/@charactermodle/3:
