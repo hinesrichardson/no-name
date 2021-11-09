@@ -93,7 +93,8 @@ ball=collision/zobie=/kill:
 zobie=spawn/20percent/air:
 @air=/spawn/half@stone:
 player/collision?@player=/dead:
-@gunsniperwhen@spacebar/pressed=spawn@bullet2:
+when/@gunsniper=/triggred=spawn/@bullet2
+trigger=/spacebar=/pressed
 @gunsniper=modle/21:
 trigger/spacebar=/trigger@gunsniper:
 controll/f=switch@weapons:
