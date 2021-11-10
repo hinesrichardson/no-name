@@ -78,13 +78,16 @@ creeper/explode=/dead@player/20block radius:
 music=/track2/dead@player:
 stone=push@spider:
 /break@stone=/stone/despawn:
-@rpg/gun=w/triggered=/bullet3:
-bullet3=/collision/@explode:
-bullet3=goto/mouce/courcer:
-@rpg=modle/18:
+@rpg/gun=w/triggered=/spawn/@bullet3:
+bullet3=/collision/explode:
+bullet3=go/to/moucecourcer:
+@rpg=/modle/18:
 @button/push/r=@respawn:
 @respawn when/dead=@player:
 @ball=model/19:
+/explode=/kill@spider:
+/explode=/collision@zobie=/despawn:
+/explode=/collision/@spider=kill@spider:
 ball/script=swing/left:
 ball/script=swight/right:
 ball=collision/@player=/Dead:
