@@ -103,7 +103,7 @@ when@gun/equiped=change/@charactermodle/2:
 when/@sniper=equiped/change/@charactermodle/3:
 when/triggered@ar=/spawn@bullet2:
 modle/22=ar:
-@grenade=/spawnwhen/g/pushed:
+gwhen/pushed=spawn/@grenade:
 grenade=/spawn@player:
 grenade=@explode:
 
