@@ -69,7 +69,7 @@ bomb=play@animation/10:
 spider=@modle16:
 spider/collision/@player=/dead:
 spider/ai=/goto@player/position:
-bullet2/collision/spider=@/kill@spider:
+spider=/collision/@bullet2=/kill@spider:
 @/kill/spider=/deaspawn:
 @creeper=modle/17:
 @creeper/explode/playernear:
