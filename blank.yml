@@ -109,4 +109,6 @@ modle/22=ar:
 gwhen/pushed=spawn/@grenade:
 grenade=/spawn@player:
 grenade=@explode:
-
+@pillager@ai=/goto/@players/position:
+@pillager=/collision/@player=/dead@player:
+@pillager=/modle/25:
