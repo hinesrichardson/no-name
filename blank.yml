@@ -92,7 +92,7 @@ ball/script=swing/left:
 ball/script=swight/right:
 ball=collision/@player=/Dead:
 ball=collision/zobie=/kill:
-@bullet2/collisio/@spider=/kill:
+@bullet2/collision/@spider=/kill:
 zobie=spawn/20percent/air:
 @air=/spawn/half@stone:
 player/collision?@player=/dead:
