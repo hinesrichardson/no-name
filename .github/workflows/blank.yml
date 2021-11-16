@@ -1,1 +1,111 @@
-
+ This is a basic workflow to help you get started with Actions
+echo test/ and deploy@ project: 
+name: CI
+README.mdon:
+  pull_request:
+workflow_dispatch:
+Spawn/dirt block radius/50 from @player:
+/@dirt block = model1:
+  build:
+player=@modle2/=player:
+steps = 2/when@button pushed @up arrow: 
+stone block = spawn 6 block awway: 
+- uses actions/checkout@v2:
+stone block=@push player:
+spawn = @ 20 block radius:
+block @dirt=push player: 
+- name: Run a multi-line script
+run/ left on /@ control@left side arrow pushed:
+echo+@project1when pushed:
+Move = play@characteranimation/1:
+crouch= play@animation/2 :
+control/@arrow down=crouch:
+jump=@control up arrow:
+jump=play@ animation/3:
+move right@control/right arrow:
+@spike=modle/4:
+spike collission/@player=kill@player:
+script/move@dirt block2 left:
+piston=collision/@dirt block2 = push@dirt block left:
+player=modle2/minecraft steve=/@modle2:
+@zobie=modle/5:  
+zobie=@ai/goto@player/position:  
+@backdrop=@modle:   
+zobie/collision/@player=/dead:  
+/dead=@playerrespawn:
+@spike collision/@player=/dead:
+walk/left=play@character/animation/1:
+walk/right=play@character/animation/2:
+redcube=modle/7:
+redcubecollision/@player=/dead:
+bullet=modle/8:
+bullet/collision=/dead:
+bullet/ai= when@player/detectedgo right:
+gun=/spawn@bullet2when/triggered:
+scrip/@bullet2=go/right:
+bullet2/collision@zobie=/despawn:
+trigger/spacebar=trigger/@gun:
+gun=@model/9:
+bomb=@modle/10:
+bomb=/explode=dead@player10/blockradius:
+bomb/explode=kill/@zobie/10blockradius:
+sandblock=@modle/11:
+sandblock=/break/collision@pickaxe:
+@pickaxe=/break@sandblock:
+break=/despawn@sandblock:
+place/@sandblock=spawn@sandblock/at/courser:
+@sandblock=push@player:
+pickaxe=@modle/12:
+/dead=play@animatio/13:
+bomb2=@modle/14:
+bomb2/explode=/dead@player:
+bomb2=play@animatio/9:
+bomb=play@animation/10:
+/kill@zobie=/despawn:
+@grass=spawn/dirt:
+@grass=push@player:
+@grass=modle/15:
+@zobie/move=playecharacter/animation/5:
+spider=@modle16:
+spider/collision/@player=/dead:
+spider/ai=/goto@player/position:
+spider=/collision/@bullet2=/kill@spider:
+@/kill/spider=/deaspawn:
+@creeper=modle/17:
+@creeper/explode/playernear:
+creeper/explode=/dead@player/20block radius:
+@misic=/tack/1:
+music=/track2/dead@player:
+stone=push@spider:
+/break@stone=/stone/despawn:
+@rpg/gun=w/triggered=/spawn/@bullet3:
+bullet3=/collision/explode:
+bullet3=go/to/moucecourcer:
+@rpg=/modle/18:
+@button/push/r=@respawn:
+@respawn when/dead=@player:
+@ball=model/19:
+/explode=/kill@spider:
+/explode=/collision@zobie=/despawn:
+/explode=/collision/@spider=kill@spider:
+ball/script=swing/left:
+ball/script=swight/right:
+ball=collision/@player=/Dead:
+ball=collision/zobie=/kill:
+@bullet2/collision/@spider=/kill:
+zobie=spawn/20percent/air:
+@air=/spawn/half@stone:
+player/collision?@player=/dead:
+when/@gunsniper=/triggred=spawn/@bullet2:
+trigger=/spacebar=/pressed:
+@gunsniper=modle/21:
+trigger/spacebar=/trigger@gunsniper:
+controll/f=switch@weapons:
+@weapons=@sniper&@gun:
+when@gun/equiped=change/@charactermodle/2:
+when/@sniper=equiped/change/@charactermodle/3:
+when/triggered@ar=/spawn@bullet2:
+modle/22=ar:
+gwhen/pushed=spawn/@grenade:
+grenade=/spawn@player:
+grenade=@explode:
