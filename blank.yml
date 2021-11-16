@@ -112,3 +112,5 @@ grenade=@explode/when/trigred:
 grenade/triggre=/b/pushed:
 /mouceclick/@detected=/trigger@gun:
 /mouceclick/@detected=/triggre@snipergun:
+/kill=/spawn@particals:
+@particals=/modle/mdle/23:
