@@ -109,3 +109,5 @@ modle/22=ar:
 gwhen/pushed=spawn/@grenade:
 grenade=/spawn@player:
 grenade=@explode:
+/mouceclick/@detected=/trigger@gun:
+/mouceclick/@detected=/triggre@snipergun:
