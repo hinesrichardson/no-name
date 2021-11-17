@@ -14,7 +14,6 @@ stone block = spawn 6 block awway:
 stone block=@push player:
 spawn = @ 20 block radius:
 block @dirt=push player: 
-- name: Run a multi-line script
 run/ left on /@ control@left side arrow pushed:
 echo+@project1when pushed:
 Move = play@characteranimation/1:
@@ -32,7 +31,11 @@ player=modle2/minecraft steve=/@modle2:
 zobie=@ai/goto@player/position:  
 @backdrop=@modle:   
 zobie/collision/@player=/dead:  
-/dead=@playerrespawn:
+/dead=@playerrespawn:\
+
+
+
+
 @spike collision/@player=/dead:
 walk/left=play@character/animation/1:
 walk/right=play@character/animation/2:
@@ -109,8 +112,16 @@ modle/22=ar:
 gwhen/pushed=spawn/@grenade:
 grenade=/spawn@player:
 grenade=@explode/when/trigred:
-grenade/triggre=/b/pushed:
+grenade/trigger=/b/pushed:
 /mouceclick/@detected=/trigger@gun:
 /mouceclick/@detected=/triggre@snipergun:
 /kill=/spawn@particals:
-@particals=/modle/25:
+@particals=@modle/25:
+@redblock2=@explode:
+@explode=/collision/kill@player:
+/kill@player=/spawn@player:
+
+
+
+
+
