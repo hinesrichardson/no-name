@@ -30,17 +30,12 @@ player=modle2/minecraft steve=/@modle2:
 @zobie=modle/5:  
 zobie=@ai/goto@player/position:  
 @backdrop=@modle:   
-zobie/collision/@player=/dead:  
-/dead=@playerrespawn:\
-
-
-
-
+zobie/collision/@player=/kill@player:  
 @spike collision/@player=/dead:
 walk/left=play@character/animation/1:
 walk/right=play@character/animation/2:
 redcube=modle/7:
-redcubecollision/@player=/dead:
+redcubecollision/@player=/kill@player:
 bullet=modle/8:
 bullet/collision=/dead:
 bullet/ai= when@player/detectedgo right:
@@ -50,7 +45,7 @@ bullet2/collision@zobie=/despawn:
 trigger/spacebar=trigger/@gun:
 gun=@model/9:
 bomb=@modle/10:
-bomb=/explode=dead@player10/blockradius:
+bomb=/explode=kill@player/10/blockradius:
 bomb/explode=kill/@zobie/10blockradius:
 sandblock=@modle/11:
 sandblock=/break/collision@pickaxe:
@@ -75,18 +70,16 @@ spider/ai=/goto@player/position:
 spider=/collision/@bullet2=/kill@spider:
 @/kill/spider=/deaspawn:
 @creeper=modle/17:
-@creeper/explode/playernear:
-creeper/explode=/dead@player/20block radius:
+@creeper/explode/@player/near:
+creeper/explode=/kill@player/20block radius:
 @misic=/tack/1:
-music=/track2/dead@player:
 stone=push@spider:
 /break@stone=/stone/despawn:
 @rpg/gun=w/triggered=/spawn/@bullet3:
 bullet3=/collision/explode:
 bullet3=go/to/moucecourcer:
 @rpg=/modle/18:
-@button/push/r=@respawn:
-@respawn when/dead=@player:
+@button/push/r/detected=/kill@player:
 @ball=model/19:
 /explode=/kill@spider:
 /explode=/collision@zobie=/despawn:
@@ -116,9 +109,9 @@ grenade/trigger=/b/pushed:
 /mouceclick/@detected=/trigger@gun:
 /mouceclick/@detected=/triggre@snipergun:
 /kill=/spawn@particals:
-@particals=@modle/25:
-@redblock2=@explode:
-@explode=/collision/kill@player:
+@redblock2/spawn@explode:
+@explode=/kill@player:
+
 /kill@player=/spawn@player:
 
 
