@@ -72,10 +72,11 @@ spider=/collision/@bullet2=/kill@spider:
 @misic=/tack/1:
 stone=push@spider:
 /break@stone=/stone/despawn:
-@rpg/gun=w/triggered=/spawn/@bullet3:
-bullet3=/collision/explode:
-bullet3=go/to/moucecourcer:
-@rpg=/modle/18:
+/@rpg=/spawn/@bullet3:
+/@bullet3=/collision/@zobie=/spawn/@explosion:
+/@bullet3/collision/zobie2=/spawn/@explosion:
+/@bullet3/collision/@spider=/spawn/@explosion:
+/@explosion=/kll@zobie2:
 @button/push/r/detected=/kill@player:
 @ball=model/19:
 /explode=/kill@spider:
