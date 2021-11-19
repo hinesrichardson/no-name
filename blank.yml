@@ -66,7 +66,7 @@ bomb=play@animation/10:
 spider=@modle16:
 spider/collision/@player=/dead:
 spider/ai=/goto@player/position:
-@bullet2/collision/@spider=/despawn@spider:
+@spider/collision/@bullet2/despawn/@spider:
 //kill@spider=/despawn:
 @misic=/tack/1:
 stone=push@spider:
