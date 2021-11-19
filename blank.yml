@@ -27,7 +27,7 @@ move right@control/right arrow:
 script/move@dirt block2 left:
 piston=collision/@dirt block2 = push@dirt block left:
 player=modle2/minecraft steve=/@modle2:
-@zobie=modle/5:  
+/@zobie=/modle/3:
 zobie=@ai/goto@player/position:  
 @backdrop=@modle:   
 zobie/collision/@player=/kill@player:  
@@ -66,7 +66,7 @@ bomb=play@animation/10:
 spider=@modle16:
 spider/collision/@player=/dead:
 spider/ai=/goto@player/position:
-spider=/collision/@bullet2=/kill@spider:
+@bullet2/collision/@spider=/despawn@spider:
 //kill@spider=/despawn:
 @misic=/tack/1:
 stone=push@spider:
