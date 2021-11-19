@@ -115,5 +115,4 @@ zobie2=spawn/@explosion/when/@player/detected/raius/20:
 /@zobie2/ai=/moveto/@player/position:
 /@bullet2=/kll@zobie2:
 /kll@zobie2=/despawn/@zobie2:
-@bullet1=/kll@zobie2:
 
