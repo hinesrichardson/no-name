@@ -23,7 +23,7 @@ jump=@control up arrow:
 jump=play@ animation/3:
 move right@control/right arrow:
 @spike=/modle/4:
-spike=/collision/@player=/kill@player:
+@spike=/collision/@player=/kill@player:
 script/move@dirt block2 left:
 piston=collision/@dirt block2 = push@dirt block left:
 player=modle2/minecraft steve=/@modle2:
