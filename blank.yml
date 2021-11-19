@@ -68,10 +68,7 @@ spider=@modle16:
 spider/collision/@player=/dead:
 spider/ai=/goto@player/position:
 spider=/collision/@bullet2=/kill@spider:
-@/kill/spider=/deaspawn:
-@creeper=modle/17:
-@creeper/explode/@player/near:
-creeper/explode=/kill@player/20block radius:
+//kill@spider=/despawn:
 @misic=/tack/1:
 stone=push@spider:
 /break@stone=/stone/despawn:
