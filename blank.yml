@@ -113,3 +113,6 @@ zobie2=spawn/@explosion/when/@player/detected/raius/20:
 /@bullet2/collision=/kll@zobie2:
 /kll@zobie2=/despawn/@zobie2:
 /@bullet3=//kill@spider:
+@gremlin=/collision/@player=/kill@player:
+/kl@gremlin=/despawn/@gremlin:
+/@gremlin/collision/@bullet2=/kl@gremlin:
