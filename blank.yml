@@ -71,7 +71,8 @@ spider/ai=/goto@player/position:
 @misic=/tack/1:
 stone=push@spider:
 /break@stone=/stone/despawn:
-/@rpg=/spawn/@bullet3:
+/@rpg=/spawn/@bullet3/when/triggred:
+/trigger/@rpg=/button/pushed/m:
 /@bullet3=/collision/@zobie=/spawn/@explosion:
 /@bullet3/collision/zobie2=/spawn/@explosion:
 /@bullet3/collision/@spider=/spawn/@explosion:
