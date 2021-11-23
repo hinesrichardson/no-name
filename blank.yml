@@ -8,7 +8,6 @@ Spawn/dirt block radius/50 from @player:
 /@dirt block = model1:
   build:
 player=@modle2/=player:
-steps = 2/when@button pushed @up arrow: 
 stone block = spawn 6 block awway: 
 - uses actions/checkout@v2:
 stone block=@push player:
@@ -118,3 +117,8 @@ zobie2=spawn/@explosion/when/@player/detected/raius/20:
 /kl@gremlin=/despawn/@gremlin:
 /@gremlin/collision/@bullet2=/kl@gremlin:
 /kill@player=/change@charactermodle/6:
+/@gremlin=/@modle/28:
+
+
+
+
