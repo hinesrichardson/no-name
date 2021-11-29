@@ -119,6 +119,9 @@ zobie2=spawn/@explosion/when/@player/detected/raius/20:
 /kill@player=/change@charactermodle/6:
 /@gremlin=/@modle/28:
 /@gremlin=/spawn/when/kll@zobie2:
+/bullet2/collision/@zobie=/despawn@bullet2:
+/@bullet2/collision/@spider=/despawn@ullet2:
+/@bullet2/collision/@zobie2=/despawn/@bullet2:
 
 
 
