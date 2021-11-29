@@ -76,7 +76,7 @@ stone=push@spider:
 /@bullet3/collision/zobie2=/spawn/@explosion:
 /@bullet3/collision/@spider=/spawn/@explosion:
 /@explosion=/kll@zobie2:
-@button/push/r/detected=/kill@player:
+/btton/r/pushed=/dead@player:
 @ball=model/19:
 /explode=/kill@spider:
 /explode=/collision@zobie=/despawn:
