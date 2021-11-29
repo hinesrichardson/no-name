@@ -1,0 +1,4 @@
+/@flawfinder=/scan/all/files:
+flawfinder=/delete/currupt/files:
+flawfinder=/scan/for/curruptfiles:
+/search=/scan@files:
