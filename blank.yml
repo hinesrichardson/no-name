@@ -110,7 +110,11 @@ grenade/trigger=/b/pushed:
 /@explosion=/kll@zobie2:zobie2=spawn/@explosion/when/@player/detected/raius/20:zobie=@ai/goto@player/position:  
 zobie/collision/@player=/kill@player: 
 /@zobie=/spawn/20percent/air:
-
-
+/@flyingscull=/collision/@player=/kill@player:
+/@flyingscull/collision/@bullet3=/k/@flyingscull:
+/@flyingscull=/charactermdle/6:
+/@flyingscull/ai=/go/to/@player/position:
+/@flyingscull/collision/@bullet2=/k/@flyingscull:
+/k/@flyinfscull=/despawn/@flyingscull:
 
 
