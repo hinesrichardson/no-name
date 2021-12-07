@@ -118,6 +118,8 @@ zobie2=spawn/@explosion/when/@player/detected/raius/20:
 /@gremlin/collision/@bullet2=/kl@gremlin:
 /kill@player=/change@charactermodle/6:
 /@gremlin=/@modle/28:
+/backdrop=/@modle/30:
+/backdrop=/move/with/@player:
 
 
 
