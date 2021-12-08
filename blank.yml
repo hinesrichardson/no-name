@@ -92,8 +92,9 @@ grenade/trigger=/b/pushed:
 /@zobie2/ai=/moveto/@player/position:
 /@bullet2/collision=/kll@zobie2:
 /kll@zobie2=/despawn/@zobie2:
-/@bullet3=//kill@spider:
+/@bullet2/collision/@spider=/despawn@spider:
 /@gremlin=/collision/@player=/kill@player:
+/@bullet3/@collision/@spider=/despawn/@spider:
 /kl@gremlin=/despawn/@gremlin:
 /@gremlin/collision/@bullet2=/kl@gremlin:
 /kill@player=/change@charactermodle/6:
