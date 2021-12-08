@@ -116,5 +116,10 @@ zobie/collision/@player=/kill@player:
 /@flyingscull/ai=/go/to/@player/position:
 /@flyingscull/collision/@bullet2=/k/@flyingscull:
 /k/@flyinfscull=/despawn/@flyingscull:
+/@teamate=/ai=/go/to/@flyingskull/position:
+/@teamate/collision/@flyingskull=/k/@flyingskull:
+/@teamate=/collision/@flyingskull=/despawn@teamate:
+/@teamate=@modle/31:
+
 
 
