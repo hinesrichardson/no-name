@@ -120,6 +120,9 @@ zobie/collision/@player=/kill@player:
 /@teamate/collision/@flyingskull=/k/@flyingskull:
 /@teamate=/collision/@flyingskull=/despawn@teamate:
 /@teamate=@modle/31:
+/@teamare=/spawnwhen/@zobie2=/kl/:
+/@teamate/collision/@spider=/despawn@teamate:
+/@teamate/collision/@zobie=/kll@zobie:
 
 
 
