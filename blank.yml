@@ -124,6 +124,14 @@ zobie/collision/@player=/kill@player:
 /@teamare=/spawnwhen/@zobie2=/kl/:
 /@teamate/collision/@spider=/despawn@teamate:
 /@teamate/collision/@zobie=/kll@zobie:
+/@bomb=/@modle/32:
+/@bomb/@player/detected/radius/15=/despawn/@bomb:
+/@bobm/@player/detected/radius/26/spawn/@explode:
+/@explode=/despawn/@collision/@player:
+/@explode=/despawn/collision/@zobie:
+/@explode=/@modle/33:
+zobie/ai=/@zobie2/detected/rdius/20=/disble/ai:
+
 
 
 
