@@ -66,7 +66,7 @@ spider=@modle16:
 spider/collision/@player=/dead:
 spider/ai=/goto@player/position:
 @spider/collision/@bullet2/despawn/@spider:
-//kill@spider=/despawn:
+/kill@spider=/despawn:
 @misic=/tack/1:
 stone=push@spider:
 /break@stone=/stone/despawn:
@@ -80,7 +80,7 @@ stone=push@spider:
 @ball=model/19:
 /explode=/kill@spider:
 /explode=/collision@zobie=/despawn:
-/explode=/collision/@spider=kill@spider:
+/explode=/collision/@spider=/kill@spider:
 ball/script=swing/left:
 ball/script=swight/right:
 ball=collision/@player=/Dead:
