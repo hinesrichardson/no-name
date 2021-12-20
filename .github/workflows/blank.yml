@@ -4,7 +4,7 @@ name: CI
 README.mdon:
   pull_request:
 workflow_dispatch:
-Spawn/dirt block radius/50 from @player:
+Spawn/@dirt block radius/50 from @player:
 /@dirt block = model1:
   build:
 player=@modle2/=player:
@@ -105,6 +105,15 @@ grenade=@explode/when/trigred:
 grenade/trigger=/b/pushed:
 /mouceclick/@detected=/trigger@gun:
 /mouceclick/@detected=/triggre@snipergun:
+/@rpg=/modle/34:
+/@rpg=/spawn/@rocket:
+/@rocket=/script=/move/right:
+/@rocket/collision/@stoneblock=/spawn/@explode:
+/@dirtblock=/collision/@player==/push/@player:
+/@dirtblock=/collision/zobie=/push/@zobie:
+/@dirtblock=/collision/@zobie2=/push/@zobie2:
+/@dirtblock=/collision/@flyingskull=/push/@flyingskull:
+/@dirtblock=/collision/@teamate=/push@teamate:
 /kill=/spawn@particals:
 zobie2=spawn/@explosion/when/@player/detected/raius/20:
 /@explosion=/kill@player/radius/20:
