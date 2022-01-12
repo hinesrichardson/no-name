@@ -1,6 +1,6 @@
  This is a basic workflow to help you get started with Actions
 echo test/ and deploy@ project: 
-name: CI
+name=/@workflow:
 README.mdon:
   pull_request:
 workflow_dispatch:
